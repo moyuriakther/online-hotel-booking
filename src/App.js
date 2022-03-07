@@ -7,6 +7,7 @@ import Header from "./Components/Header/Header";
 import { createContext, useState } from "react";
 import PrivateRoute from "./Components/Login/PrivateRoute";
 import Book from "./Components/Book/Book";
+import Map from "./Components/GoogleMap/Map";
 
 export const UserContext = createContext();
 
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/google" element={<Map />} />
           <Route path="/login" element={<Login />} />
           <Route
             path="/book"

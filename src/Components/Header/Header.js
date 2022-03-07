@@ -9,6 +9,7 @@ const Header = () => {
             <nav>
                 <Link to="/">Home</Link> |{" "}
                 <Link to="login">Login</Link>  |{" "}
+                <Link to="google">Google Map</Link>  |{" "}
                 <Link to="book">Booking</Link>
             </nav>
             <h2>Choose Your Needed Room</h2>
